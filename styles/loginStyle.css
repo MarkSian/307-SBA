@@ -4,3 +4,37 @@
     box-sizing: border-box;
     font-family: 'Roboto';
 }
+
+body {
+    background-image: url('../images/Background_Concert_Stage.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+.card {
+    background-color: #205781;
+    box-shadow: 5px 5px 5px #205781;
+    color: #F6F8D5;
+}
+
+
+.btn {
+    background-color: #205781;
+    border: 2px solid #F6F8D5;
+    color: #F6F8D5;
+}
+
+.btn:hover {
+    background-color: #98D2C0;
+    color: #205781;
+}
