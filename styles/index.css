@@ -22,11 +22,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.top_navbar {
-    z-index: 1;
-    background-color: transparent;
-}
-
 img {
     border: 1px solid #F6F8D5;
     border-radius: 50px;
@@ -90,6 +85,7 @@ section {
     text-align: center;
 }
 
+/* adds the decorative white line above and below Vocaloid*/
 section h1::before {
     content: '';
     display: block;
@@ -106,3 +102,46 @@ section h1::after {
     margin: 20px auto 0;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: black;
+    color: #F6F8D5;
+    font-size: 35px;
+    margin-top: 100px;
+
+}
+
+.nav a {
+    color: #F6F8D5;
+    text-decoration: none;
+    font-weight: 900;   
+}
+
+.nav a:hover {
+    color: #162447;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+
+select {
+    padding: 12px; 
+    border: 2px solid #c2c1c1; 
+    border-radius: 10px; 
+    background-color: #F6F8D5;
+    font-size: 25px;
+    color: #162447; 
+    appearance: none; 
+    cursor: pointer; 
+}
+
+
+option {
+    padding: 10px; 
+    font-size: 20px; 
+    background-color: #F6F8D5; 
+    color: #162447; 
+}
