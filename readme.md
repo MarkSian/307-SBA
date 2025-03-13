@@ -16,7 +16,7 @@ Welcome to this fan made Vocaloid webpage, a dedicated space for fans of Vocaloi
 
 ## Vocaloid Carousel
 This Carousel will auto scroll to the next vocaloid card.
-Please Note: The only page available to view/select in this carousel is Hatsune Miku. Clicking on Luka, Rin, and IA will lead to their respecive content pages.
+Please Note: The only page available to view/select in this carousel is Hatsune Miku. Clicking on Luka, Rin, and IA will not lead to their respecive content pages.
 
 
 ![alt text](images/readme_image/carousel-screenshot.JPG)
