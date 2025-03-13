@@ -38,3 +38,18 @@ body {
     background-color: #98D2C0;
     color: #205781;
 }
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    color: #F6F8D5;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #98D2C0;
+    text-decoration: underline;
+}
